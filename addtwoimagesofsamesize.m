@@ -4,8 +4,8 @@
 clc
 clear all
 close all
-I = imread('images/rice.png');
-J = imread('images/cameraman.tif');
+I = imread('rice.png'); % these two images are provided by MATLAB itself
+J = imread('cameraman.tif');
 % the above two images are grayscale as their sizes are 256 x 256 by
 % checking their size by size(I) in terminal
 for i = 1:256 % loop for adding elements of matrices or pixels of images
