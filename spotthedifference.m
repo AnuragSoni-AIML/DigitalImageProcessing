@@ -13,5 +13,5 @@ figure;
 imshow(J);
 J = imresize(J,[g(1),g(2)]); % resizing the second image as that of first image
 figure;
-imshow(I-J); % the subtracted resu;ted image which shpws the differences
+imshow(I-J); % the subtracted resulted image which shows the differences
 title('Difference between two images');
