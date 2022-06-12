@@ -6,8 +6,8 @@ clc
 clear all
 close all
 warning off
-% x = imread('pcb1.jpg'); % correct circuit
-x = imread('coke1.jfif');
+% x = imread('images/pcb1.jpg'); % correct circuit
+x = imread('images/coke1.jfif');
 subplot(1,3,1);
 imshow(x);
 % title('pcb image');

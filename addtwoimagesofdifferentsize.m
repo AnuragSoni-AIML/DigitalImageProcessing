@@ -2,12 +2,12 @@
 clc
 clear all
 close all
-I = imread('universe.jpg');
+I = imread('images/universe.jpg');
 figure;
 imshow(I);
 title('First Image');
 g = size(I); % getting the size of image I to make image J's size as that of I
-J = imread('capture.jpg');
+J = imread('images/capture.jpg');
 J = imresize(J,[g(1),g(2)]); % resizing the size of J image as that of the size of image I but only for the rows and columns 
 % that's why only 2 parameters are passed in imresize function in second
 % argument

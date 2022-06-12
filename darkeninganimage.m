@@ -3,7 +3,7 @@ clc
 clear all
 close all
 warning off
-x = imread('universe.jpg');
+x = imread('images/universe.jpg');
 subplot(1,2,1);
 imshow(x);
 title('Original Image');

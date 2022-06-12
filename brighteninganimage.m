@@ -4,7 +4,7 @@ clc
 clear all
 close all
 warning off
-x = imread('capture.jpg');
+x = imread('images/capture.jpg');
 subplot(1,2,1);
 imshow(x);
 title('Original Image');

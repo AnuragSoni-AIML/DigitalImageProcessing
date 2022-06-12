@@ -2,7 +2,7 @@ clc
 clear all
 close all
 warning off
-x = imread('coins.jpg');
+x = imread('images/coins.jpg');
 imshow(x); 
 % creating first mask
 BW1 = roipoly; % roipoly is used to create mask over the area of the image you want to display after image multiplcation
